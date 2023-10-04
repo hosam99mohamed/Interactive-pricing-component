@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend Mentor | Interactive pricing component </title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+    </head>
+        <body>
+
+            <div class="bg-pattern">
+                <img src="images/bg-pattern.svg" alt="">
+            </div>
+
+            <header class="header">
+                <img class="circle" src="images/pattern-circles.svg" alt="">
+                <h1> Simple, traffic-based pricing </h1>
+                <p> Sign-up for our 30-day trial.  No credit card required.  </p>
+            </header>
+
+            <div class="container">
+                <div class="top">
+                    <div class="title">
+                        <h1> <span> 100K </span> Pageviews </h1>
+                    </div>
+    
+                    <div class="money2">
+                        <p> <span class="dollar"> &dollar;16.00 </span> <span class="sign"> / </span> 
+                            <span class="month"> month </span>  </p>
+                    </div>
+                </div>
+          
+
+                <div class="progress">
+                        <input type="range" min="0" max="4" step="1" value="2" class="myrange">
+               </div>
+
+                <div class="money">
+                    <p> <span class="dollar"> &dollar;16.00 </span> <span class="sign"> / </span> 
+                        <span class="month"> month </span>  </p>
+                </div>
+
+                <div class="toggle">
+
+                    <span class="name"> Monthly Billing </span>
+
+                    <label class="switch">
+                        <input type="checkbox" name="Billing" id="Billing">
+                        <span class="slider"></span>
+                    </label>
+            
+
+                    <span class="name mobile"> Yearly Billing <span class="mobile"> -25% </span> </span>
+                    <span class="year"> Yearly Billing <span class="desktop"> 25% discount </span> </span>
+
+                </div>
+
+                <hr>
+
+                <div class="footer">
+                    <ul>
+                        <li> <img src="images/icon-check.svg" alt=""> <span> Unlimited websites </span> </li>
+                        <li> <img src="images/icon-check.svg" alt=""> <span> 100% data ownership </span> </li>
+                        <li> <img src="images/icon-check.svg" alt=""> <span> Email reports </span> </li>
+                    </ul>
+    
+                    <button class="btn"> Start my trial </button>
+                </div>
+            </div>
+            
+            <script src="main.js"></script>
+        </body>
+</html>
